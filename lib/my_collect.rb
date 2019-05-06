@@ -4,7 +4,7 @@ def my_collect(empty_array)
   end
 
   empty_array.collect do |empty_array|
-    empty_array.split(" ").first
+    empty_array.split(" ").first.upcase
   end
 
 
