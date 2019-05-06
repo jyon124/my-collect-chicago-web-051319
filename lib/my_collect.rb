@@ -7,6 +7,4 @@ def my_collect(empty_array)
     students.split(" ").first
   end
 
-
-
 end
