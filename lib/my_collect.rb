@@ -1,4 +1,4 @@
-def my_collect(students, languages)
+def my_collect(empty_array)
   languages.collect do |languages|
     languages.upcase
   end
