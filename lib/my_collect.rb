@@ -1,10 +1,10 @@
-def my_collect(empty_array)
-  empty_array.collect do |empty_array|
-    empty_array.upcase
+def my_collect(students, languages)
+  languages.collect do |languages|
+    languages.upcase
   end
 
-  empty_array.collect do |empty_array|
-    empty_array.split(" ").first
+  students.collect do |students|
+    students.split(" ").first
   end
 
 
