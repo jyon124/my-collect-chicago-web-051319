@@ -1,10 +1,9 @@
 def my_collect(empty_array)
-  languages.collect do |languages|
-    languages.upcase
+  i = 0
+  collected = []
+  while i < empty_array.count
+    collected << yield(empty_array[i])
+    i += 1
   end
-
-  students.collect do |students|
-    students.split(" ").first
-  end
-
+  collected
 end
